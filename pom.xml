@@ -121,6 +121,19 @@
     		<scope>test</scope>
 		</dependency>
     </dependencies>
+    <distributionManagement>
+    		<repository>
+      		    <id>nexus</id>
+     		    <name>nexus-vijay</name>
+      		    <url>http://3.129.243:8081/repository/nexus-vijay/</url>
+    		</repository>
+	    
+       		<snapshotRepository>
+      		    <id>nexus</id>
+      		    <name>vijay-nexus-snap</name>
+      		    <url>http://3.129.243:8081/repository/vijay-nexus-snap/</url>
+    		</snapshotRepository>
+    </distributionManagement>
     <build>
         <plugins>
             <plugin>
